@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #14495e;
+}
+.brows {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-40%);
+  width: 100%;
+  text-align: center;   
+}
+.eyes {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+.eye {
+  width: 500px;
+  height: 250px;
+  background: #fff;
+  display: inline-block;
+  margin: 40px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+.ball {
+    width: 250px; /* was 80*/
+    height: 250px;
+    transform-origin: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.iris {
+  width: 250px; /* was 80*/
+  height: 250px;
+  transform-origin: center;
+  background: radial-gradient(closest-side, rgb(67, 1, 73),rgb(67, 1, 73), rgb(155, 5, 160),  rgb(67, 1, 73));
+  border-radius: 50%;
+}
+.pupil {
+width: 125px; /* was 40*/
+height: 125px;
+background: #000;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+border-radius: 50%;
+transition: all .5s linear;
+/*display:none;*/
+
+}
+.info {
+  color: white;
+
+}
+.mouseTracker {
+  width: 3px;
+  height: 3px;
+  background: yellow;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.tracker2 {
+  width: 3px;
+  height: 3px;
+  background: red;
+  position: absolute;
+  /*top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);*/
+  border-radius: 50%;
+  
+  display: none;
+}
+.highlight1 {
+  width: 80px;
+  height: 60px;
+  background: whitesmoke;
+  position: absolute;
+  top: 23%;
+  left: 68%;
+  transform: translate(-55%, -45%);
+  border-radius: 50%;
+  z-index: 99;
+  background: rgba(255, 255, 255, 0.3);
+}
+.highlight2 {
+  width: 20px;
+  height: 20px;
+  background: whitesmoke;
+  position: absolute;
+  top: 45%;
+  left: 60%;
+  transform: translate(-60%, -45%);
+  border-radius: 50%;
+  z-index: 99;
+  background: rgba(255, 255, 255, 0.3);
+
+}
+.brow {
+  background: #14495e;
+  width: 500px;
+  height: 100px;
+  position: absolute;
+  display: inline-block;
+  margin: 40px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
